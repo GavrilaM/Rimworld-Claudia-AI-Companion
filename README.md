@@ -1,4 +1,5 @@
 # Claudia - AI Companion for RimWorld
+<img width="1024" height="559" alt="Preview" src="https://github.com/user-attachments/assets/86bc44e2-40d3-4b41-a761-5d83c5b16552" />
 
 An intelligent AI companion that watches your colony in real-time, provides strategic advice, reacts to events, and chats with you like a friend.
 
@@ -12,11 +13,19 @@ An intelligent AI companion that watches your colony in real-time, provides stra
 
 ### Deep Colony Analysis
 (WARNING: May not be 100% accurate, depends on the AI model you use and consumes a lot of tokens, more polishing in future updates.)
-- Complete colonist profiles (backstory, traits, skills, health, equipment)
-- Colony identity awareness (tribal vs crashlanded, tech level detection)
-- Full resource and storage scanning
-- Active threat detection, combat monitoring, and battle log reading
-- Able to read your current game modlist. 
+## Colony Data Claudia Can Read
+- Colonist profiles: names, backstory, traits, skills, health conditions, equipment, apparel, weapons
+- Colony identity: faction type (tribal/crashlanded/etc.), tech level
+- Resources: food, meals, medicine, silver, steel, components, etc.
+- Storage contents: full inventory scan of all stockpiles
+- Weather: current conditions, outdoor temperature
+- Season and time
+- Threats: hostile pawns on map, active combat
+- Battle log: recent combat damage, kills, injuries
+- Research progress: current and completed projects
+- Population: free colonists, prisoners count
+- Relationships between colonists
+- Active modlist currently loaded in the game
 
 ### Proactive AI Companion
 - Claudia chats randomly every few in-game hours, commenting on weather, mood, seasons, and individual colonists
@@ -117,6 +126,11 @@ Claudia_AI/
 - Safe to add or remove mid-save.
 
 ---
+## In-game Preview
+<img width="600" height="600" alt="Screenshot 2026-02-15 210108" src="https://github.com/user-attachments/assets/86750bcf-7c7d-4d2e-b1dc-dd31864f4522" />
+<img width="600" height="600" alt="Screenshot 2026-02-15 210137" src="https://github.com/user-attachments/assets/9c43652e-eae8-4d16-b863-a01f38c9566c" />
+<img width="600" height="600" alt="Screenshot 2026-02-15 210144" src="https://github.com/user-attachments/assets/2b6cfaf7-335a-4d75-addc-745b8b7c8022" />
+<img width="600" height="600" alt="Screenshot 2026-02-15 210305" src="https://github.com/user-attachments/assets/689d4e4c-8726-4528-8bdb-4172cf019fb2" />
 
 ## License
 
@@ -125,3 +139,4 @@ MIT License. Feel free to modify and share.
 ## Author
 
 Gavrila M - [GitHub](https://github.com/GavrilaM)
+
