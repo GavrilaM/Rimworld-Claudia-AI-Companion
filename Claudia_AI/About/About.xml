@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <name>Claudia - AI Companion</name>
+    <author>Gavrila M</author>
+    <url>https://github.com/GavrilaM/Rimworld-Claudia-AI-Companion</url>
+    <supportedVersions>
+        <li>1.5</li>
+    </supportedVersions>
+    <packageId>gavrilam.claudia.aicompanion</packageId>
+    <description>
+Claudia - AI Companion for RimWorld
+
+An intelligent AI companion that watches your colony in real-time and provides strategic advice, commentary, and casual conversation.
+
+Powered by OpenRouter, Use Any AI Model
+Claudia connects to OpenRouter, giving you access to hundreds of AI models including Gemini, Claude, GPT, Llama, and more. Simply paste your API key and choose your preferred model, no code editing required.
+
+Features
+
+Deep Colony Analysis 
+(WARNING: May not be 100% accurate, depends on the AI model you use and consumes a lot of tokens, balancing in future updates.)
+• Complete colonist profiles (backstory, traits, skills, health, equipment)
+• Colony identity awareness (tribal vs crashlanded, tech level)
+• Full resource and storage scanning
+• Threat detection and combat monitoring
+
+Proactive Companion
+• Claudia chats randomly every few hours about colony life
+• Comments on weather, mood, seasons, and individual colonists
+• Reacts to events: raids, mental breaks, fires, deaths, research
+• Remembers full conversation history
+
+Mood-Reactive Avatar
+• Claudia's portrait changes expression based on what she's saying
+• 5 moods: Idle, Happy, Alert, Amused, Worried
+• Accent colors shift to match mood (blue, green, red, purple, amber)
+• Auto-detected from response content, no setup needed
+
+Beautiful In-Game UI
+• Large floating message overlay with mood-reactive avatar portrait
+• Chat window accessible from the bottom menu bar
+• Click-to-dismiss messages
+
+Unique Personality Tones
+• Sarcastic: Backseat gamer roasting your decisions with internet slang
+• Professional: Military commander issuing tactical briefings
+• Friendly: Wholesome best friend emotionally invested in every colonist
+• Custom: Write your own system prompt
+
+Fully Configurable (Mod Settings)
+• API key and AI model selection, no code editing needed
+• AI parameters: temperature, max tokens
+• Adjustable chat frequency, message duration, chat history limit
+• Built-in API connection test button with error diagnostics
+• Toggle random chat and floating overlay independently
+
+Setup
+1. Get an API key from https://openrouter.ai/keys
+2. In-game: Options &gt; Mod Settings &gt; Claudia AI Companion
+3. Paste your API key and choose a model ID (e.g. google/gemini-2.0-flash-001)
+4. Click "Test API Connection" to verify
+
+Compatibility
+• Compatible with all other mods, Claudia only reads colony data and does not modify game mechanics
+• No known mod conflicts
+• Safe to add or remove mid-save
+
+Requirements
+• RimWorld 1.5
+• Harmony
+• Internet connection (for AI API calls)
+
+Credits
+• Built with Harmony for runtime patching
+• Powered by OpenRouter (openrouter.ai)
+    </description>
+    <modDependencies>
+        <li>
+            <packageId>brrainz.harmony</packageId>
+            <displayName>Harmony</displayName>
+            <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases</downloadUrl>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+</ModMetaData>

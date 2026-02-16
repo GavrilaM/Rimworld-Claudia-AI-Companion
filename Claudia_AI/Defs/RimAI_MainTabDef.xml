@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <MainButtonDef>
+        <defName>RimAI_Tab</defName>
+        <label>Claudia</label>
+        <description>Open the Claudia AI Advisor chat window.</description>
+        <tabWindowClass>RimAI_Core.RimAI_Window</tabWindowClass>
+        <order>999</order>
+        <validWithoutMap>false</validWithoutMap>
+        <!-- Remove custom icon, use default -->
+    </MainButtonDef>
+</Defs>
